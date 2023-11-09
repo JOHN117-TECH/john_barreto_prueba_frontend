@@ -7,11 +7,13 @@ import Header from './components/layouts/Header';
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      <Cards />
-      <Inputs />
-      <Footer />
+      <div className='ContainerOP'>
+        <Header />
+        <Banner />
+        <Cards />
+        <Inputs />
+        <Footer />
+      </div>
     </>
   );
 }
