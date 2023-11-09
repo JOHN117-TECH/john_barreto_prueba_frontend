@@ -1,0 +1,44 @@
+.mySwiper {
+    width: 90%;
+    height: 400px;
+}
+
+.ContainerCards {
+    display: block;
+    width: 100vw;
+    padding: 2rem 0rem;
+}
+
+.mySwiper__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3C5973;
+    border-radius: 15px;
+    height: max-content;
+}
+
+.mySwiper__card--img {
+    padding-top: 1rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.mySwiper__card--title {
+    padding: 1rem 0rem;
+}
+.mySwiper__card--content{
+    padding: 0rem 1rem 1rem 1rem;
+}
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-button-prev {
+    color: white;
+}
+
+@media (max-width: 320px) {
+}

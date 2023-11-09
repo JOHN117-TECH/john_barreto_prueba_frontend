@@ -1,4 +1,5 @@
 import Banner from './components/Banner';
+import Cards from './components/Cards';
 import Header from './components/layouts/Header';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <Cards />
     </>
   );
 }
