@@ -1,4 +1,3 @@
-import './Banner.css';
 import { AiFillPlayCircle } from 'react-icons/ai';
 const Banner = () => {
   const handleClick = () => {

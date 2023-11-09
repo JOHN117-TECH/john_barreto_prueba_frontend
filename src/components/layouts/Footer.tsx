@@ -1,5 +1,3 @@
-import './Footer.css';
-
 const Footer = () => {
   const handleClick = () => {
     console.log('footer link');

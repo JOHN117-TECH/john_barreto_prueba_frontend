@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './Header.css';
 import { FcMenu } from 'react-icons/fc';
 const Header = () => {
   const [isActived, setIsActive] = useState(false);

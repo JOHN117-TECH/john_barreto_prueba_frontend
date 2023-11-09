@@ -1,5 +1,4 @@
 import { ChangeEvent, FormEvent, useRef, useState } from 'react';
-import './Inputs.css';
 
 interface Prop {
   name: '';

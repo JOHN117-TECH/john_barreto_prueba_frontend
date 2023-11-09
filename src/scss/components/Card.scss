@@ -1,0 +1,43 @@
+.mySwiper {
+  width: 90%;
+  height: 400px;
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3c5973;
+    border-radius: 15px;
+    height: max-content;
+
+    &--img {
+      padding-top: 1rem;
+      width: 8rem;
+      height: 8rem;
+      border-radius: 50%;
+    }
+
+    &--title {
+      padding: 1rem 0rem;
+    }
+
+    &--content {
+      padding: 0rem 1rem 1rem 1rem;
+    }
+  }
+}
+
+.swiper-button-next {
+  color: white;
+}
+
+.swiper-button-prev {
+  color: white;
+}
+
+.ContainerCards {
+  display: block;
+  width: 100vw;
+  padding: 2rem 0rem;
+}
